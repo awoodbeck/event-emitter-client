@@ -21,7 +21,7 @@ The server sends [events](protocol/event.go#L55) over UDP that conform to this b
 | Submitter IP         |              4 |
 | CRC32                |              4 |
 
-<sup>1</sup> [Protocol constants](protocol/event.go#L12)
+<sup>1</sup> [Protocol constants](protocol/event.go#L16)
 
 # Assumptions
 * The client runs on Linux or macOS, primarily because the server binaries used to create this client were targeted at these OSes
